@@ -2,7 +2,7 @@
   "meta": {
     "title": "松原さん × Reiチーム タスクボード",
     "updated": "2026-04-30",
-    "updatedBy": "Rei"
+    "updatedBy": "Codex"
   },
   "columns": [
     {
@@ -10,11 +10,56 @@
       "label": "🔴 今日やる",
       "color": "#ef4444",
       "tasks": [
-        { "id": "t1", "title": "アカバさんのワンオンワン予定を返信", "owner": "👤ユーザー", "tags": ["個人", "連絡"], "deadline": "今日" },
-        { "id": "t2", "title": "アカバさんレッスン後（19:00〜）に2週間予定＋実績PDF/PPT送付", "owner": "👤ユーザー", "tags": ["個人", "連絡"], "deadline": "今日19時以降" },
-        { "id": "t3", "title": "机の上の紙の整理", "owner": "👤ユーザー", "tags": ["個人", "生活"], "deadline": "今日" },
-        { "id": "t4", "title": "LINE Channel secret を再生成（漏洩済み）", "owner": "👤ユーザー", "tags": ["LINE", "セキュリティ"], "deadline": "今日" },
-        { "id": "t5", "title": "LINE Access token を再生成", "owner": "👤ユーザー", "tags": ["LINE", "セキュリティ"], "deadline": "今日" },
+        {
+          "id": "t1",
+          "title": "アカバさんのワンオンワン予定を返信",
+          "owner": "👤ユーザー",
+          "tags": [
+            "個人",
+            "連絡"
+          ],
+          "deadline": "今日"
+        },
+        {
+          "id": "t2",
+          "title": "アカバさんレッスン後（19:00〜）に2週間予定＋実績PDF/PPT送付",
+          "owner": "👤ユーザー",
+          "tags": [
+            "個人",
+            "連絡"
+          ],
+          "deadline": "今日19時以降"
+        },
+        {
+          "id": "t3",
+          "title": "机の上の紙の整理",
+          "owner": "👤ユーザー",
+          "tags": [
+            "個人",
+            "生活"
+          ],
+          "deadline": "今日"
+        },
+        {
+          "id": "t4",
+          "title": "LINE Channel secret を再生成（漏洩済み）",
+          "owner": "👤ユーザー",
+          "tags": [
+            "LINE",
+            "セキュリティ"
+          ],
+          "deadline": "今日"
+        },
+        {
+          "id": "t5",
+          "title": "LINE Access token を再生成",
+          "owner": "👤ユーザー",
+          "tags": [
+            "LINE",
+            "セキュリティ"
+          ],
+          "deadline": "今日"
+        }
       ]
     },
     {
@@ -22,10 +67,44 @@
       "label": "🤖 Codex委託中",
       "color": "#8b5cf6",
       "tasks": [
-        { "id": "c1", "title": "wrangler deploy → webhook URL取得", "owner": "🔧Codex", "tags": ["LINE外部脳", "Cloudflare"], "deadline": "進行中" },
-        { "id": "c2", "title": "Worker secrets設定（LINE/GitHub tokens）", "owner": "🔧Codex", "tags": ["LINE外部脳", "Cloudflare"], "deadline": "deploy後" },
-        { "id": "c3", "title": "settings.local.json から bunshin-ai.com curl 削除", "owner": "🔧Codex", "tags": ["セキュリティ"], "deadline": "今週" },
-        { "id": "c4", "title": "Google API token を ~/.config/google/ に移動", "owner": "🔧Codex", "tags": ["セキュリティ"], "deadline": "今週" }
+        {
+          "id": "c1",
+          "title": "wrangler deploy → webhook URL取得",
+          "owner": "🔧Codex",
+          "tags": [
+            "LINE外部脳",
+            "Cloudflare"
+          ],
+          "deadline": "進行中"
+        },
+        {
+          "id": "c2",
+          "title": "Worker secrets設定（LINE/GitHub tokens）",
+          "owner": "🔧Codex",
+          "tags": [
+            "LINE外部脳",
+            "Cloudflare"
+          ],
+          "deadline": "deploy後"
+        },
+        {
+          "id": "c3",
+          "title": "settings.local.json から bunshin-ai.com curl 削除",
+          "owner": "🔧Codex",
+          "tags": [
+            "セキュリティ"
+          ],
+          "deadline": "今週"
+        },
+        {
+          "id": "c4",
+          "title": "Google API token を ~/.config/google/ に移動",
+          "owner": "🔧Codex",
+          "tags": [
+            "セキュリティ"
+          ],
+          "deadline": "今週"
+        }
       ]
     },
     {
@@ -33,12 +112,63 @@
       "label": "🟡 今週",
       "color": "#f59e0b",
       "tasks": [
-        { "id": "w1", "title": "新しいキーボードの置き場セッティング", "owner": "👤ユーザー", "tags": ["個人", "生活"], "deadline": "今週" },
-        { "id": "w2", "title": "保険の請求", "owner": "👤ユーザー", "tags": ["個人", "お金"], "deadline": "今週" },
-        { "id": "w3", "title": "LINE webhook URL に Worker URL を設定", "owner": "👤ユーザー+🔧Codex", "tags": ["LINE外部脳"], "deadline": "deploy後" },
-        { "id": "w4", "title": "LINEアプリからOfficialアカウントに友達追加・テストメッセージ送信", "owner": "👤ユーザー", "tags": ["LINE外部脳"], "deadline": "今週" },
-        { "id": "w5", "title": "Workerログから LINE user ID 取得 → ALLOWED_USER_IDS 設定・再deploy", "owner": "🔧Codex", "tags": ["LINE外部脳"], "deadline": "今週" },
-        { "id": "w6", "title": "Mac sync script + launchd 設定", "owner": "🔧Codex", "tags": ["LINE外部脳", "Mac"], "deadline": "今週" }
+        {
+          "id": "w1",
+          "title": "新しいキーボードの置き場セッティング",
+          "owner": "👤ユーザー",
+          "tags": [
+            "個人",
+            "生活"
+          ],
+          "deadline": "今週"
+        },
+        {
+          "id": "w2",
+          "title": "保険の請求",
+          "owner": "👤ユーザー",
+          "tags": [
+            "個人",
+            "お金"
+          ],
+          "deadline": "今週"
+        },
+        {
+          "id": "w3",
+          "title": "LINE webhook URL に Worker URL を設定",
+          "owner": "👤ユーザー+🔧Codex",
+          "tags": [
+            "LINE外部脳"
+          ],
+          "deadline": "deploy後"
+        },
+        {
+          "id": "w4",
+          "title": "LINEアプリからOfficialアカウントに友達追加・テストメッセージ送信",
+          "owner": "👤ユーザー",
+          "tags": [
+            "LINE外部脳"
+          ],
+          "deadline": "今週"
+        },
+        {
+          "id": "w5",
+          "title": "Workerログから LINE user ID 取得 → ALLOWED_USER_IDS 設定・再deploy",
+          "owner": "🔧Codex",
+          "tags": [
+            "LINE外部脳"
+          ],
+          "deadline": "今週"
+        },
+        {
+          "id": "w6",
+          "title": "Mac sync script + launchd 設定",
+          "owner": "🔧Codex",
+          "tags": [
+            "LINE外部脳",
+            "Mac"
+          ],
+          "deadline": "今週"
+        }
       ]
     },
     {
@@ -46,12 +176,61 @@
       "label": "🔵 来月以降",
       "color": "#3b82f6",
       "tasks": [
-        { "id": "m1", "title": "OpenAI API key 取得・LLM強化（任意）", "owner": "👤ユーザー", "tags": ["LINE外部脳", "AI"], "deadline": "急がない" },
-        { "id": "m2", "title": "Obsidian AIフォルダ / 01_自分資料/ 整備", "owner": "🤖Rei", "tags": ["エージェント体制"], "deadline": "急がない" },
-        { "id": "m3", "title": "cc-booster継続利用判断", "owner": "👤ユーザー", "tags": ["エージェント体制"], "deadline": "急がない" },
-        { "id": "m4", "title": "Note 月4本ペース維持", "owner": "👤ユーザー", "tags": ["コンテンツ"], "deadline": "毎月" },
-        { "id": "m5", "title": "YouTube 月2本ペース維持", "owner": "👤ユーザー", "tags": ["コンテンツ"], "deadline": "毎月" },
-        { "id": "m6", "title": "01OAの会 次回セミナー確認・参加登録", "owner": "👤ユーザー", "tags": ["不動産"], "deadline": "急がない" }
+        {
+          "id": "m1",
+          "title": "OpenAI API key 取得・LLM強化（任意）",
+          "owner": "👤ユーザー",
+          "tags": [
+            "LINE外部脳",
+            "AI"
+          ],
+          "deadline": "急がない"
+        },
+        {
+          "id": "m2",
+          "title": "Obsidian AIフォルダ / 01_自分資料/ 整備",
+          "owner": "🤖Rei",
+          "tags": [
+            "エージェント体制"
+          ],
+          "deadline": "急がない"
+        },
+        {
+          "id": "m3",
+          "title": "cc-booster継続利用判断",
+          "owner": "👤ユーザー",
+          "tags": [
+            "エージェント体制"
+          ],
+          "deadline": "急がない"
+        },
+        {
+          "id": "m4",
+          "title": "Note 月4本ペース維持",
+          "owner": "👤ユーザー",
+          "tags": [
+            "コンテンツ"
+          ],
+          "deadline": "毎月"
+        },
+        {
+          "id": "m5",
+          "title": "YouTube 月2本ペース維持",
+          "owner": "👤ユーザー",
+          "tags": [
+            "コンテンツ"
+          ],
+          "deadline": "毎月"
+        },
+        {
+          "id": "m6",
+          "title": "01OAの会 次回セミナー確認・参加登録",
+          "owner": "👤ユーザー",
+          "tags": [
+            "不動産"
+          ],
+          "deadline": "急がない"
+        }
       ]
     },
     {
@@ -59,18 +238,115 @@
       "label": "✅ 完了済み",
       "color": "#10b981",
       "tasks": [
-        { "id": "d1", "title": "LINE外部脳 コード実装（Cloudflare Worker）", "owner": "🔧Codex", "tags": ["LINE外部脳"], "completedDate": "2026-04-30" },
-        { "id": "d2", "title": "LINE Official Account 作成・Messaging API 有効化", "owner": "👤ユーザー", "tags": ["LINE外部脳"], "completedDate": "2026-04-30" },
-        { "id": "d3", "title": "GitHub repo 作成（personal-brain）", "owner": "👤ユーザー", "tags": ["LINE外部脳"], "completedDate": "2026-04-30" },
-        { "id": "d4", "title": "コードをGitHubにpush（git init → push）", "owner": "🤖Rei", "tags": ["LINE外部脳"], "completedDate": "2026-04-30" },
-        { "id": "d5", "title": "Node.js (nvm LTS) インストール", "owner": "👤ユーザー", "tags": ["環境"], "completedDate": "2026-04-30" },
-        { "id": "d6", "title": "wrangler login 完了", "owner": "👤ユーザー", "tags": ["Cloudflare"], "completedDate": "2026-04-30" },
-        { "id": "d7", "title": "Codexへの引き継ぎ書作成", "owner": "🤖Rei", "tags": ["エージェント体制"], "completedDate": "2026-04-30" },
-        { "id": "d8", "title": "エージェント体制整理プラン作成", "owner": "🤖Rei", "tags": ["エージェント体制"], "completedDate": "2026-04-30" },
-        { "id": "d9", "title": "セキュリティ監査実施・レポート作成", "owner": "🤖Rei", "tags": ["セキュリティ"], "completedDate": "2026-04-30" },
-        { "id": "d10", "title": "Kanbanタスクボード作成", "owner": "🤖Rei", "tags": ["エージェント体制"], "completedDate": "2026-04-30" },
-        { "id": "d11", "title": "GitHub personal-brain をPrivateに変更", "owner": "👤ユーザー", "tags": ["GitHub", "セキュリティ"], "completedDate": "2026-04-30" },
-        { "id": "d12", "title": "rei-hq リポジトリ作成・GitHub Pages公開", "owner": "👤ユーザー+🤖Rei", "tags": ["エージェント体制"], "completedDate": "2026-04-30" }
+        {
+          "id": "d1",
+          "title": "LINE外部脳 コード実装（Cloudflare Worker）",
+          "owner": "🔧Codex",
+          "tags": [
+            "LINE外部脳"
+          ],
+          "completedDate": "2026-04-30"
+        },
+        {
+          "id": "d2",
+          "title": "LINE Official Account 作成・Messaging API 有効化",
+          "owner": "👤ユーザー",
+          "tags": [
+            "LINE外部脳"
+          ],
+          "completedDate": "2026-04-30"
+        },
+        {
+          "id": "d3",
+          "title": "GitHub repo 作成（personal-brain）",
+          "owner": "👤ユーザー",
+          "tags": [
+            "LINE外部脳"
+          ],
+          "completedDate": "2026-04-30"
+        },
+        {
+          "id": "d4",
+          "title": "コードをGitHubにpush（git init → push）",
+          "owner": "🤖Rei",
+          "tags": [
+            "LINE外部脳"
+          ],
+          "completedDate": "2026-04-30"
+        },
+        {
+          "id": "d5",
+          "title": "Node.js (nvm LTS) インストール",
+          "owner": "👤ユーザー",
+          "tags": [
+            "環境"
+          ],
+          "completedDate": "2026-04-30"
+        },
+        {
+          "id": "d6",
+          "title": "wrangler login 完了",
+          "owner": "👤ユーザー",
+          "tags": [
+            "Cloudflare"
+          ],
+          "completedDate": "2026-04-30"
+        },
+        {
+          "id": "d7",
+          "title": "Codexへの引き継ぎ書作成",
+          "owner": "🤖Rei",
+          "tags": [
+            "エージェント体制"
+          ],
+          "completedDate": "2026-04-30"
+        },
+        {
+          "id": "d8",
+          "title": "エージェント体制整理プラン作成",
+          "owner": "🤖Rei",
+          "tags": [
+            "エージェント体制"
+          ],
+          "completedDate": "2026-04-30"
+        },
+        {
+          "id": "d9",
+          "title": "セキュリティ監査実施・レポート作成",
+          "owner": "🤖Rei",
+          "tags": [
+            "セキュリティ"
+          ],
+          "completedDate": "2026-04-30"
+        },
+        {
+          "id": "d10",
+          "title": "Kanbanタスクボード作成",
+          "owner": "🤖Rei",
+          "tags": [
+            "エージェント体制"
+          ],
+          "completedDate": "2026-04-30"
+        },
+        {
+          "id": "d11",
+          "title": "GitHub personal-brain をPrivateに変更",
+          "owner": "👤ユーザー",
+          "tags": [
+            "GitHub",
+            "セキュリティ"
+          ],
+          "completedDate": "2026-04-30"
+        },
+        {
+          "id": "d12",
+          "title": "rei-hq リポジトリ作成・GitHub Pages公開",
+          "owner": "👤ユーザー+🤖Rei",
+          "tags": [
+            "エージェント体制"
+          ],
+          "completedDate": "2026-04-30"
+        }
       ]
     }
   ]
