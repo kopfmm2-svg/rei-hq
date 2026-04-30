@@ -15,7 +15,6 @@
         { "id": "t3", "title": "机の上の紙の整理", "owner": "👤ユーザー", "tags": ["個人", "生活"], "deadline": "今日" },
         { "id": "t4", "title": "LINE Channel secret を再生成（漏洩済み）", "owner": "👤ユーザー", "tags": ["LINE", "セキュリティ"], "deadline": "今日" },
         { "id": "t5", "title": "LINE Access token を再生成", "owner": "👤ユーザー", "tags": ["LINE", "セキュリティ"], "deadline": "今日" },
-        { "id": "t6", "title": "GitHub personal-brain リポジトリをprivateに変更", "owner": "👤ユーザー", "tags": ["GitHub"], "deadline": "今日" }
       ]
     },
     {
@@ -44,7 +43,7 @@
     },
     {
       "id": "thismonth",
-      "label": "🔵 来週以降",
+      "label": "🔵 来月以降",
       "color": "#3b82f6",
       "tasks": [
         { "id": "m1", "title": "OpenAI API key 取得・LLM強化（任意）", "owner": "👤ユーザー", "tags": ["LINE外部脳", "AI"], "deadline": "急がない" },
@@ -69,7 +68,9 @@
         { "id": "d7", "title": "Codexへの引き継ぎ書作成", "owner": "🤖Rei", "tags": ["エージェント体制"], "completedDate": "2026-04-30" },
         { "id": "d8", "title": "エージェント体制整理プラン作成", "owner": "🤖Rei", "tags": ["エージェント体制"], "completedDate": "2026-04-30" },
         { "id": "d9", "title": "セキュリティ監査実施・レポート作成", "owner": "🤖Rei", "tags": ["セキュリティ"], "completedDate": "2026-04-30" },
-        { "id": "d10", "title": "Kanbanタスクボード作成", "owner": "🤖Rei", "tags": ["エージェント体制"], "completedDate": "2026-04-30" }
+        { "id": "d10", "title": "Kanbanタスクボード作成", "owner": "🤖Rei", "tags": ["エージェント体制"], "completedDate": "2026-04-30" },
+        { "id": "d11", "title": "GitHub personal-brain をPrivateに変更", "owner": "👤ユーザー", "tags": ["GitHub", "セキュリティ"], "completedDate": "2026-04-30" },
+        { "id": "d12", "title": "rei-hq リポジトリ作成・GitHub Pages公開", "owner": "👤ユーザー+🤖Rei", "tags": ["エージェント体制"], "completedDate": "2026-04-30" }
       ]
     }
   ]
