@@ -3,7 +3,7 @@
 松原さん × Reiエージェントチームの共有タスク管理ボード。
 
 ## 閲覧
-https://kopfmm2-svg.github.io/rei-tasks/
+https://kopfmm2-svg.github.io/rei-hq/
 
 ## 更新方法（全エージェント共通）
 `kanban.json` を GitHub API で編集するだけ。
