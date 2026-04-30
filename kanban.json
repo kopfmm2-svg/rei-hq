@@ -44,15 +44,15 @@
     },
     {
       "id": "thismonth",
-      "label": "🔵 今月",
+      "label": "🔵 来週以降",
       "color": "#3b82f6",
       "tasks": [
-        { "id": "m1", "title": "OpenAI API key 取得・LLM強化（任意）", "owner": "👤ユーザー", "tags": ["LINE外部脳", "AI"], "deadline": "今月" },
-        { "id": "m2", "title": "Obsidian AIフォルダ / 01_自分資料/ 整備", "owner": "🤖Rei", "tags": ["エージェント体制"], "deadline": "今月" },
-        { "id": "m3", "title": "cc-booster継続利用判断", "owner": "👤ユーザー", "tags": ["エージェント体制"], "deadline": "今月" },
+        { "id": "m1", "title": "OpenAI API key 取得・LLM強化（任意）", "owner": "👤ユーザー", "tags": ["LINE外部脳", "AI"], "deadline": "急がない" },
+        { "id": "m2", "title": "Obsidian AIフォルダ / 01_自分資料/ 整備", "owner": "🤖Rei", "tags": ["エージェント体制"], "deadline": "急がない" },
+        { "id": "m3", "title": "cc-booster継続利用判断", "owner": "👤ユーザー", "tags": ["エージェント体制"], "deadline": "急がない" },
         { "id": "m4", "title": "Note 月4本ペース維持", "owner": "👤ユーザー", "tags": ["コンテンツ"], "deadline": "毎月" },
         { "id": "m5", "title": "YouTube 月2本ペース維持", "owner": "👤ユーザー", "tags": ["コンテンツ"], "deadline": "毎月" },
-        { "id": "m6", "title": "01OAの会 次回セミナー確認・参加登録", "owner": "👤ユーザー", "tags": ["不動産"], "deadline": "今月" }
+        { "id": "m6", "title": "01OAの会 次回セミナー確認・参加登録", "owner": "👤ユーザー", "tags": ["不動産"], "deadline": "急がない" }
       ]
     },
     {
