@@ -39,7 +39,7 @@
         { "id": "w4", "title": "LINEアプリからOfficialアカウントに友達追加・テストメッセージ送信", "owner": "👤ユーザー", "tags": ["LINE外部脳"], "deadline": "今週" },
         { "id": "w5", "title": "Workerログから LINE user ID 取得 → ALLOWED_USER_IDS 設定・再deploy", "owner": "🔧Codex", "tags": ["LINE外部脳"], "deadline": "今週" },
         { "id": "w6", "title": "Mac sync script + launchd 設定", "owner": "🔧Codex", "tags": ["LINE外部脳", "Mac"], "deadline": "今週" },
-        { "id": "w7", "title": "意思決定フロー SwimLane図作成（Mermaid）", "owner": "🧠Gemini", "tags": ["エージェント体制", "設計"], "deadline": "今週" }
+        { "id": "w7", "title": "rei.mdに意思決定フロー追記・品質チェッカートリガー定義", "owner": "🤖Rei", "tags": ["エージェント体制", "設計"], "deadline": "今週" }
       ]
     },
     {
@@ -71,7 +71,10 @@
         { "id": "d9", "title": "セキュリティ監査実施・レポート作成", "owner": "🤖Rei", "tags": ["セキュリティ"], "completedDate": "2026-04-30" },
         { "id": "d10", "title": "Kanbanタスクボード作成", "owner": "🤖Rei", "tags": ["エージェント体制"], "completedDate": "2026-04-30" },
         { "id": "d11", "title": "GitHub personal-brain をPrivateに変更", "owner": "👤ユーザー", "tags": ["GitHub", "セキュリティ"], "completedDate": "2026-04-30" },
-        { "id": "d12", "title": "rei-hq リポジトリ作成・GitHub Pages公開", "owner": "👤ユーザー+🤖Rei", "tags": ["エージェント体制"], "completedDate": "2026-04-30" }
+        { "id": "d12", "title": "rei-hq リポジトリ作成・GitHub Pages公開", "owner": "👤ユーザー+🤖Rei", "tags": ["エージェント体制"], "completedDate": "2026-04-30" },
+        { "id": "d13", "title": "SwimLane意思決定フロー図作成（Gemini）", "owner": "🧠Gemini", "tags": ["エージェント体制", "設計"], "completedDate": "2026-05-01" },
+        { "id": "d14", "title": "rei.md統合・意思決定フロー・メタレビュー定義", "owner": "🤖Rei", "tags": ["エージェント体制"], "completedDate": "2026-05-01" },
+        { "id": "d15", "title": "Allow地獄解消（settings.jsonのallowlist設定）", "owner": "🤖Rei", "tags": ["設定"], "completedDate": "2026-05-01" }
       ]
     }
   ]
