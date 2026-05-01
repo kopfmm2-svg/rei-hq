@@ -14,7 +14,7 @@
         { "id": "t2", "title": "アカバさんレッスン後（19:00〜）に2週間予定＋実績PDF/PPT送付", "owner": "👤ユーザー", "tags": ["個人", "連絡"], "deadline": "今日19時以降" },
         { "id": "t3", "title": "机の上の紙の整理", "owner": "👤ユーザー", "tags": ["個人", "生活"], "deadline": "今日" },
         { "id": "t4", "title": "LINE Channel secret を再生成（漏洩済み）", "owner": "👤ユーザー", "tags": ["LINE", "セキュリティ"], "deadline": "今日" },
-        { "id": "t5", "title": "LINE Access token を再生成", "owner": "👤ユーザー", "tags": ["LINE", "セキュリティ"], "deadline": "今日" },
+        { "id": "t5", "title": "LINE Access token を再生成", "owner": "👤ユーザー", "tags": ["LINE", "セキュリティ"], "deadline": "今日" }
       ]
     },
     {
