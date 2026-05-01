@@ -2,7 +2,7 @@
   "meta": {
     "title": "松原さん × Reiチーム タスクボード",
     "updated": "2026-05-01",
-    "updatedBy": "sync-kanban"
+    "updatedBy": "gas-sync"
   },
   "columns": [
     {
@@ -18,7 +18,7 @@
             "個人",
             "生活"
           ],
-          "deadline": "2026/05/01"
+          "deadline": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "t4",
@@ -28,7 +28,7 @@
             "LINE",
             "セキュリティ"
           ],
-          "deadline": "2026/05/01"
+          "deadline": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "t5",
@@ -38,7 +38,7 @@
             "LINE",
             "セキュリティ"
           ],
-          "deadline": "2026/05/01"
+          "deadline": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         }
       ]
     },
@@ -55,7 +55,7 @@
             "個人",
             "生活"
           ],
-          "deadline": "2026/05/07"
+          "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "w2",
@@ -65,7 +65,7 @@
             "個人",
             "お金"
           ],
-          "deadline": "2026/05/07"
+          "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "w3",
@@ -74,7 +74,7 @@
           "tags": [
             "LINE外部脳"
           ],
-          "deadline": "2026/05/07"
+          "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "w4",
@@ -83,7 +83,7 @@
           "tags": [
             "LINE外部脳"
           ],
-          "deadline": "2026/05/07"
+          "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "w5",
@@ -92,7 +92,7 @@
           "tags": [
             "LINE外部脳"
           ],
-          "deadline": "2026/05/07"
+          "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "w6",
@@ -102,7 +102,7 @@
             "LINE外部脳",
             "Mac"
           ],
-          "deadline": "2026/05/07"
+          "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "w7",
@@ -112,7 +112,7 @@
             "エージェント体制",
             "設計"
           ],
-          "deadline": "2026/05/07"
+          "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         }
       ]
     },
@@ -129,7 +129,7 @@
             "LINE外部脳",
             "Cloudflare"
           ],
-          "deadline": "2026/05/01"
+          "deadline": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "c2",
@@ -139,7 +139,7 @@
             "LINE外部脳",
             "Cloudflare"
           ],
-          "deadline": "2026/05/07"
+          "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "c3",
@@ -148,7 +148,7 @@
           "tags": [
             "セキュリティ"
           ],
-          "deadline": "2026/05/07"
+          "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "c4",
@@ -157,7 +157,7 @@
           "tags": [
             "セキュリティ"
           ],
-          "deadline": "2026/05/07"
+          "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         }
       ]
     },
@@ -236,7 +236,7 @@
             "個人",
             "連絡"
           ],
-          "completedDate": "2026-05-01"
+          "completedDate": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "t2",
@@ -246,7 +246,7 @@
             "個人",
             "連絡"
           ],
-          "completedDate": "2026-05-01"
+          "completedDate": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "d1",
@@ -255,7 +255,7 @@
           "tags": [
             "LINE外部脳"
           ],
-          "completedDate": "2026-04-30"
+          "completedDate": "Thu Apr 30 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "d2",
@@ -264,7 +264,7 @@
           "tags": [
             "LINE外部脳"
           ],
-          "completedDate": "2026-04-30"
+          "completedDate": "Thu Apr 30 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "d3",
@@ -273,7 +273,7 @@
           "tags": [
             "LINE外部脳"
           ],
-          "completedDate": "2026-04-30"
+          "completedDate": "Thu Apr 30 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "d4",
@@ -282,7 +282,7 @@
           "tags": [
             "LINE外部脳"
           ],
-          "completedDate": "2026-04-30"
+          "completedDate": "Thu Apr 30 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "d5",
@@ -291,7 +291,7 @@
           "tags": [
             "環境"
           ],
-          "completedDate": "2026-04-30"
+          "completedDate": "Thu Apr 30 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "d6",
@@ -300,7 +300,7 @@
           "tags": [
             "Cloudflare"
           ],
-          "completedDate": "2026-04-30"
+          "completedDate": "Thu Apr 30 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "d7",
@@ -309,7 +309,7 @@
           "tags": [
             "エージェント体制"
           ],
-          "completedDate": "2026-04-30"
+          "completedDate": "Thu Apr 30 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "d8",
@@ -318,7 +318,7 @@
           "tags": [
             "エージェント体制"
           ],
-          "completedDate": "2026-04-30"
+          "completedDate": "Thu Apr 30 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "d9",
@@ -327,7 +327,7 @@
           "tags": [
             "セキュリティ"
           ],
-          "completedDate": "2026-04-30"
+          "completedDate": "Thu Apr 30 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "d10",
@@ -336,7 +336,7 @@
           "tags": [
             "エージェント体制"
           ],
-          "completedDate": "2026-04-30"
+          "completedDate": "Thu Apr 30 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "d11",
@@ -346,7 +346,7 @@
             "GitHub",
             "セキュリティ"
           ],
-          "completedDate": "2026-04-30"
+          "completedDate": "Thu Apr 30 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "d12",
@@ -355,7 +355,7 @@
           "tags": [
             "エージェント体制"
           ],
-          "completedDate": "2026-04-30"
+          "completedDate": "Thu Apr 30 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "d13",
@@ -365,7 +365,7 @@
             "エージェント体制",
             "設計"
           ],
-          "completedDate": "2026-05-01"
+          "completedDate": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "d14",
@@ -374,7 +374,7 @@
           "tags": [
             "エージェント体制"
           ],
-          "completedDate": "2026-05-01"
+          "completedDate": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
           "id": "d15",
@@ -383,7 +383,7 @@
           "tags": [
             "設定"
           ],
-          "completedDate": "2026-05-01"
+          "completedDate": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         }
       ]
     }
