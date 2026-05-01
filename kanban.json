@@ -19,26 +19,6 @@
             "生活"
           ],
           "deadline": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
-        },
-        {
-          "id": "t4",
-          "title": "LINE Channel secret を再生成（漏洩済み）",
-          "owner": "👤ユーザー",
-          "tags": [
-            "LINE",
-            "セキュリティ"
-          ],
-          "deadline": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
-        },
-        {
-          "id": "t5",
-          "title": "LINE Access token を再生成",
-          "owner": "👤ユーザー",
-          "tags": [
-            "LINE",
-            "セキュリティ"
-          ],
-          "deadline": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         }
       ]
     },
@@ -68,43 +48,6 @@
           "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
         {
-          "id": "w3",
-          "title": "LINE webhook URL に Worker URL を設定",
-          "owner": "👤ユーザー+🔧Codex",
-          "tags": [
-            "LINE外部脳"
-          ],
-          "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
-        },
-        {
-          "id": "w4",
-          "title": "LINEアプリからOfficialアカウントに友達追加・テストメッセージ送信",
-          "owner": "👤ユーザー",
-          "tags": [
-            "LINE外部脳"
-          ],
-          "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
-        },
-        {
-          "id": "w5",
-          "title": "Workerログから LINE user ID 取得 → ALLOWED_USER_IDS 設定・再deploy",
-          "owner": "🔧Codex",
-          "tags": [
-            "LINE外部脳"
-          ],
-          "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
-        },
-        {
-          "id": "w6",
-          "title": "Mac sync script + launchd 設定",
-          "owner": "🔧Codex",
-          "tags": [
-            "LINE外部脳",
-            "Mac"
-          ],
-          "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
-        },
-        {
           "id": "w7",
           "title": "rei.mdに意思決定フロー追記・品質チェッカートリガー定義",
           "owner": "🤖Rei",
@@ -121,26 +64,6 @@
       "label": "🤖 委託中",
       "color": "#8b5cf6",
       "tasks": [
-        {
-          "id": "c1",
-          "title": "wrangler deploy → webhook URL取得",
-          "owner": "🔧Codex",
-          "tags": [
-            "LINE外部脳",
-            "Cloudflare"
-          ],
-          "deadline": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
-        },
-        {
-          "id": "c2",
-          "title": "Worker secrets設定（LINE/GitHub tokens）",
-          "owner": "🔧Codex",
-          "tags": [
-            "LINE外部脳",
-            "Cloudflare"
-          ],
-          "deadline": "Thu May 07 2026 00:00:00 GMT+0900 (Japan Standard Time)"
-        },
         {
           "id": "c3",
           "title": "settings.local.json から bunshin-ai.com curl 削除",
@@ -245,6 +168,83 @@
           "tags": [
             "個人",
             "連絡"
+          ],
+          "completedDate": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
+        },
+        {
+          "id": "t4",
+          "title": "LINE Channel secret を再生成（漏洩済み）",
+          "owner": "👤ユーザー",
+          "tags": [
+            "LINE",
+            "セキュリティ"
+          ],
+          "completedDate": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
+        },
+        {
+          "id": "t5",
+          "title": "LINE Access token を再生成",
+          "owner": "👤ユーザー",
+          "tags": [
+            "LINE",
+            "セキュリティ"
+          ],
+          "completedDate": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
+        },
+        {
+          "id": "c1",
+          "title": "wrangler deploy → webhook URL取得",
+          "owner": "🔧Codex",
+          "tags": [
+            "LINE外部脳",
+            "Cloudflare"
+          ],
+          "completedDate": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
+        },
+        {
+          "id": "c2",
+          "title": "Worker secrets設定（LINE/GitHub tokens）",
+          "owner": "🔧Codex",
+          "tags": [
+            "LINE外部脳",
+            "Cloudflare"
+          ],
+          "completedDate": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
+        },
+        {
+          "id": "w3",
+          "title": "LINE webhook URL に Worker URL を設定",
+          "owner": "👤ユーザー+🔧Codex",
+          "tags": [
+            "LINE外部脳"
+          ],
+          "completedDate": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
+        },
+        {
+          "id": "w4",
+          "title": "LINEアプリからOfficialアカウントに友達追加・テストメッセージ送信",
+          "owner": "👤ユーザー",
+          "tags": [
+            "LINE外部脳"
+          ],
+          "completedDate": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
+        },
+        {
+          "id": "w5",
+          "title": "Workerログから LINE user ID 取得 → ALLOWED_USER_IDS 設定・再deploy",
+          "owner": "🔧Codex",
+          "tags": [
+            "LINE外部脳"
+          ],
+          "completedDate": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
+        },
+        {
+          "id": "w6",
+          "title": "Mac sync script + launchd 設定",
+          "owner": "🔧Codex",
+          "tags": [
+            "LINE外部脳",
+            "Mac"
           ],
           "completedDate": "Fri May 01 2026 00:00:00 GMT+0900 (Japan Standard Time)"
         },
