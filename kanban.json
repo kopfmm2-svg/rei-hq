@@ -97,6 +97,15 @@
           "owner": "👤ユーザー",
           "tags": [],
           "deadline": "今週"
+        },
+        {
+          "id": "42",
+          "title": "Z",
+          "owner": "✅完了",
+          "tags": [
+            "🔧Codex"
+          ],
+          "deadline": "GitHub / Google Cloud / Kanban"
         }
       ]
     },
