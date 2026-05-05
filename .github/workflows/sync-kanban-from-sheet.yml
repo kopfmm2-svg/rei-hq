@@ -1,0 +1,49 @@
+name: Sync Kanban from Google Sheets
+
+on:
+  workflow_dispatch:
+    inputs:
+      sheet_id:
+        description: 'Google Spreadsheet ID'
+        required: false
+        default: '1TrYGE6Z_WfQEJZzpmKeV-rmF4tby5U4zXTJ5o9tEj2I'
+      sheet_gid:
+        description: 'Google Sheet gid'
+        required: false
+        default: '661688425'
+  schedule:
+    - cron: '7 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-kanban-from-sheet
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Sync kanban.json from Google Sheets
+        env:
+          TASK_SHEET_ID: ${{ github.event.inputs.sheet_id || '1TrYGE6Z_WfQEJZzpmKeV-rmF4tby5U4zXTJ5o9tEj2I' }}
+          TASK_SHEET_GID: ${{ github.event.inputs.sheet_gid || '661688425' }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: node scripts/sync-sheet-to-kanban.mjs
+      - name: Commit synced kanban files
+        run: |
+          if git diff --quiet -- kanban.json; then
+            echo "No synced changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add kanban.json
+          git commit -m "Sync kanban from Google Sheets"
+          git push
