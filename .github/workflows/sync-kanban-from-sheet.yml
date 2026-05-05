@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write
 
 concurrency:
   group: sync-kanban-from-sheet
@@ -25,8 +26,20 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     if: github.actor != 'github-actions[bot]'
+    env:
+      GCP_WORKLOAD_IDENTITY_PROVIDER: ${{ secrets.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+      GCP_SERVICE_ACCOUNT: ${{ secrets.GCP_SERVICE_ACCOUNT }}
     steps:
       - uses: actions/checkout@v4
+      - name: Authenticate to Google Cloud
+        id: auth
+        if: ${{ env.GCP_WORKLOAD_IDENTITY_PROVIDER != '' && env.GCP_SERVICE_ACCOUNT != '' }}
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ env.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ env.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/spreadsheets.readonly
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -34,6 +47,7 @@ jobs:
         env:
           TASK_SHEET_ID: ${{ github.event.inputs.sheet_id || '1TrYGE6Z_WfQEJZzpmKeV-rmF4tby5U4zXTJ5o9tEj2I' }}
           TASK_SHEET_GID: ${{ github.event.inputs.sheet_gid || '661688425' }}
+          GOOGLE_OAUTH_ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
         run: node scripts/sync-sheet-to-kanban.mjs
       - name: Commit synced kanban files

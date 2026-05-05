@@ -31,6 +31,10 @@ async function main() {
 }
 
 async function fetchSheetRows() {
+  if (process.env.GOOGLE_OAUTH_ACCESS_TOKEN) {
+    return fetchRowsWithAccessToken(process.env.GOOGLE_OAUTH_ACCESS_TOKEN);
+  }
+
   if (process.env.GOOGLE_SERVICE_ACCOUNT_JSON) {
     return fetchRowsWithServiceAccount();
   }
@@ -39,10 +43,15 @@ async function fetchSheetRows() {
 }
 
 async function fetchRowsWithServiceAccount() {
-  const spreadsheetId = process.env.TASK_SHEET_ID || DEFAULT_SHEET_ID;
-  const sheetGid = String(process.env.TASK_SHEET_GID || DEFAULT_SHEET_GID);
   const credentials = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON);
   const accessToken = await getServiceAccountAccessToken(credentials);
+
+  return fetchRowsWithAccessToken(accessToken);
+}
+
+async function fetchRowsWithAccessToken(accessToken) {
+  const spreadsheetId = process.env.TASK_SHEET_ID || DEFAULT_SHEET_ID;
+  const sheetGid = String(process.env.TASK_SHEET_GID || DEFAULT_SHEET_GID);
 
   const metadataResponse = await fetch(
     `https://sheets.googleapis.com/v4/spreadsheets/${encodeURIComponent(spreadsheetId)}?fields=sheets.properties`,
@@ -123,7 +132,7 @@ async function fetchRowsFromPublicCsv() {
   if (!response.ok) {
     throw new Error(
       `Failed to fetch public sheet CSV: ${response.status} ${response.statusText}. ` +
-        'For private sheets, set GOOGLE_SERVICE_ACCOUNT_JSON and share the Sheet with the service account email.'
+        'For private sheets, set GOOGLE_OAUTH_ACCESS_TOKEN through GitHub OIDC/WIF or set GOOGLE_SERVICE_ACCOUNT_JSON, then share the Sheet with the service account email.'
     );
   }
 
