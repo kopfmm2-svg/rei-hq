@@ -11,14 +11,25 @@
       "color": "#ef4444",
       "tasks": [
         {
-          "id": "3",
-          "title": "机の上の紙の整理",
+          "id": "43",
+          "title": "四国旅行の準備",
           "owner": "👤ユーザー",
-          "tags": [
-            "個人",
-            "生活"
-          ],
-          "deadline": "2026/05/01"
+          "tags": [],
+          "deadline": "今日"
+        },
+        {
+          "id": "44",
+          "title": "WarsawからPrahaへの移動予約",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "deadline": "今日"
+        },
+        {
+          "id": "45",
+          "title": "PrahaからWienの移動予約",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "deadline": "今日"
         }
       ]
     },
@@ -83,29 +94,6 @@
             "旅行"
           ],
           "deadline": "今週"
-        },
-        {
-          "id": "40",
-          "title": "5/7の予定調整",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今週"
-        },
-        {
-          "id": "41",
-          "title": "5/2のメモ書き",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今週"
-        },
-        {
-          "id": "42",
-          "title": "Z",
-          "owner": "✅完了",
-          "tags": [
-            "🔧Codex"
-          ],
-          "deadline": "GitHub / Google Cloud / Kanban"
         }
       ]
     },
@@ -208,6 +196,16 @@
           "tags": [
             "個人",
             "連絡"
+          ],
+          "completedDate": "2026/05/01"
+        },
+        {
+          "id": "3",
+          "title": "机の上の紙の整理",
+          "owner": "👤ユーザー",
+          "tags": [
+            "個人",
+            "生活"
           ],
           "completedDate": "2026/05/01"
         },
@@ -424,6 +422,27 @@
             "設定"
           ],
           "completedDate": "2026-05-01"
+        },
+        {
+          "id": "40",
+          "title": "5/7の予定調整",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "completedDate": "2026-05-09"
+        },
+        {
+          "id": "41",
+          "title": "5/2のメモ書き",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "completedDate": "2026-05-09"
+        },
+        {
+          "id": "42",
+          "title": "rei-hq Google Sheets→Kanban同期をWIF鍵なし認証で構築・運用確認",
+          "owner": "👤ユーザー+🔧Codex",
+          "tags": [],
+          "completedDate": "2026-05-05"
         }
       ]
     }
