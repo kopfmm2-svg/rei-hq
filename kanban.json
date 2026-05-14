@@ -2,7 +2,7 @@
   "meta": {
     "title": "松原さん × Reiチーム タスクボード",
     "updated": "2026-05-15",
-    "updatedBy": "sheet-sync"
+    "updatedBy": "Rei"
   },
   "columns": [
     {
@@ -156,7 +156,18 @@
       "id": "someday",
       "label": "⚪ いつか",
       "color": "#64748b",
-      "tasks": []
+      "tasks": [
+        {
+          "id": "46",
+          "title": "Obsidian Vault 整理（ルートファイル移動・フォルダ構成整備）",
+          "owner": "👤ユーザー+🤖Rei",
+          "tags": [
+            "Obsidian",
+            "整理"
+          ],
+          "deadline": "いつか"
+        }
+      ]
     },
     {
       "id": "done",
