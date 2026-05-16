@@ -20,13 +20,6 @@
           "deadline": "今日"
         },
         {
-          "id": "44",
-          "title": "WarsawからPrahaへの移動予約",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今日"
-        },
-        {
           "id": "45",
           "title": "PrahaからWienの移動予約",
           "owner": "👤ユーザー",
@@ -452,6 +445,15 @@
           "owner": "👤ユーザー+🔧Codex",
           "tags": [],
           "completedDate": "2026-05-05"
+        },
+        {
+          "id": "44",
+          "title": "WarsawからPragueの移動予約",
+          "owner": "👤ユーザー",
+          "tags": [
+            "旅行"
+          ],
+          "completedDate": "2026/05/14"
         }
       ]
     }
