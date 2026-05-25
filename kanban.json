@@ -9,6 +9,12 @@
       "id": "today",
       "label": "🔴 今日中",
       "color": "#ef4444",
+      "tasks": []
+    },
+    {
+      "id": "thisweek",
+      "label": "🟡 今週",
+      "color": "#f59e0b",
       "tasks": [
         {
           "id": "8",
@@ -29,69 +35,6 @@
           "deadline": "2026/05/07"
         },
         {
-          "id": "45",
-          "title": "PrahaからWienの移動予約",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今日"
-        },
-        {
-          "id": "49",
-          "title": "ワルシャワの地図、行きたい所をかく",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今日"
-        },
-        {
-          "id": "50",
-          "title": "チェコの行きたい場所、地図をかく",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今日"
-        },
-        {
-          "id": "51",
-          "title": "チェコとウィーンのチケット",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今日"
-        },
-        {
-          "id": "52",
-          "title": "1999のリードシート",
-          "owner": "👤ユーザー+🔧Codex",
-          "tags": [],
-          "deadline": "今日"
-        },
-        {
-          "id": "55",
-          "title": "Feel cycle に行く",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "毎週"
-        },
-        {
-          "id": "65",
-          "title": "ComfyUI",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今日"
-        },
-        {
-          "id": "66",
-          "title": "Stability Matrix or Forge",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今日"
-        }
-      ]
-    },
-    {
-      "id": "thisweek",
-      "label": "🟡 今週",
-      "color": "#f59e0b",
-      "tasks": [
-        {
           "id": "11",
           "title": "保険の請求",
           "owner": "👤ユーザー",
@@ -111,27 +54,6 @@
           ],
           "deadline": "2026/05/07"
         },
-        {
-          "id": "47",
-          "title": "ノバルティス 書類",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "2026/7/2"
-        },
-        {
-          "id": "48",
-          "title": "Zoetis 書類",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "2026/6/15"
-        }
-      ]
-    },
-    {
-      "id": "thismonth",
-      "label": "🔵 1ヶ月",
-      "color": "#3b82f6",
-      "tasks": [
         {
           "id": "17",
           "title": "OpenAI API key 取得・LLM強化（任意）",
@@ -188,32 +110,88 @@
           "deadline": "2026-06-01以降"
         },
         {
+          "id": "45",
+          "title": "PrahaからWienの移動予約",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "deadline": "今週"
+        },
+        {
           "id": "46",
           "title": "Obsidianファイル整理",
           "owner": "👤ユーザー",
           "tags": [],
-          "deadline": "1ヶ月"
+          "deadline": "今週"
+        },
+        {
+          "id": "47",
+          "title": "ノバルティス 書類",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "deadline": "2026/7/2"
+        },
+        {
+          "id": "48",
+          "title": "Zoetis 書類",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "deadline": "2026/6/15"
+        },
+        {
+          "id": "49",
+          "title": "ワルシャワの地図、行きたい所をかく",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "deadline": "今週"
+        },
+        {
+          "id": "50",
+          "title": "チェコの行きたい場所、地図をかく",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "deadline": "今週"
+        },
+        {
+          "id": "51",
+          "title": "チェコとウィーンのチケット",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "deadline": "今週"
+        },
+        {
+          "id": "52",
+          "title": "1999のリードシート",
+          "owner": "👤ユーザー+🔧Codex",
+          "tags": [],
+          "deadline": "今週"
+        },
+        {
+          "id": "55",
+          "title": "Feel cycle に行く",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "deadline": "毎週"
         },
         {
           "id": "56",
           "title": "piano 練習",
           "owner": "👤ユーザー",
           "tags": [],
-          "deadline": "1ヶ月"
+          "deadline": "今週"
         },
         {
           "id": "57",
           "title": "チェコ、オーストリア、ポーランドの歴史映画",
           "owner": "👤ユーザー",
           "tags": [],
-          "deadline": "1ヶ月"
+          "deadline": "今週"
         },
         {
           "id": "58",
           "title": "本月３冊は読む",
           "owner": "👤ユーザー",
           "tags": [],
-          "deadline": "1ヶ月"
+          "deadline": "今週"
         },
         {
           "id": "59",
@@ -221,8 +199,28 @@
           "owner": "👤ユーザー",
           "tags": [],
           "deadline": "7月"
+        },
+        {
+          "id": "65",
+          "title": "ComfyUI",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "deadline": "今週"
+        },
+        {
+          "id": "66",
+          "title": "Stability Matrix or Forge",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "deadline": "今週"
         }
       ]
+    },
+    {
+      "id": "thismonth",
+      "label": "🔵 1ヶ月",
+      "color": "#3b82f6",
+      "tasks": []
     },
     {
       "id": "someday",
