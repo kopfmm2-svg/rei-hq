@@ -11,6 +11,24 @@
       "color": "#ef4444",
       "tasks": [
         {
+          "id": "8",
+          "title": "settings.local.json から bunshin-ai.com curl 削除",
+          "owner": "🔧Codex",
+          "tags": [
+            "セキュリティ"
+          ],
+          "deadline": "2026/05/07"
+        },
+        {
+          "id": "9",
+          "title": "Google API token を ~/.config/google/ に移動",
+          "owner": "🔧Codex",
+          "tags": [
+            "セキュリティ"
+          ],
+          "deadline": "2026/05/07"
+        },
+        {
           "id": "45",
           "title": "PrahaからWienの移動予約",
           "owner": "👤ユーザー",
@@ -39,11 +57,32 @@
           "deadline": "今日"
         },
         {
+          "id": "52",
+          "title": "1999のリードシート",
+          "owner": "👤ユーザー+🔧Codex",
+          "tags": [],
+          "deadline": "今日"
+        },
+        {
           "id": "55",
           "title": "Feel cycle に行く",
           "owner": "👤ユーザー",
           "tags": [],
           "deadline": "毎週"
+        },
+        {
+          "id": "65",
+          "title": "ComfyUI",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "deadline": "今日"
+        },
+        {
+          "id": "66",
+          "title": "Stability Matrix or Forge",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "deadline": "今日"
         }
       ]
     },
@@ -52,24 +91,6 @@
       "label": "🟡 今週",
       "color": "#f59e0b",
       "tasks": [
-        {
-          "id": "8",
-          "title": "settings.local.json から bunshin-ai.com curl 削除",
-          "owner": "🔧Codex",
-          "tags": [
-            "セキュリティ"
-          ],
-          "deadline": "2026/05/07"
-        },
-        {
-          "id": "9",
-          "title": "Google API token を ~/.config/google/ に移動",
-          "owner": "🔧Codex",
-          "tags": [
-            "セキュリティ"
-          ],
-          "deadline": "2026/05/07"
-        },
         {
           "id": "11",
           "title": "保険の請求",
@@ -170,13 +191,6 @@
           "id": "46",
           "title": "Obsidianファイル整理",
           "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "1ヶ月"
-        },
-        {
-          "id": "52",
-          "title": "I'm every woman のLeadsheet1.5音下げ",
-          "owner": "👤ユーザー+🔧Codex",
           "tags": [],
           "deadline": "1ヶ月"
         },
@@ -542,6 +556,41 @@
         {
           "id": "54",
           "title": "2週間のまとめを赤羽さんに送る",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "completedDate": "2026-05-25"
+        },
+        {
+          "id": "60",
+          "title": "VS Code",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "completedDate": "2026-05-25"
+        },
+        {
+          "id": "61",
+          "title": "Python + uv",
+          "owner": "🔧Codex",
+          "tags": [],
+          "completedDate": "2026-05-25"
+        },
+        {
+          "id": "62",
+          "title": "Node.js LTS",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "completedDate": "2026-05-25"
+        },
+        {
+          "id": "63",
+          "title": "NVIDIA Driver確認",
+          "owner": "👤ユーザー",
+          "tags": [],
+          "completedDate": "2026-05-25"
+        },
+        {
+          "id": "64",
+          "title": "Ollama",
           "owner": "👤ユーザー",
           "tags": [],
           "completedDate": "2026-05-25"
