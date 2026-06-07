@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "松原さん × Reiチーム タスクボード",
-    "updated": "2026-06-07",
+    "updated": "2026-06-08",
     "updatedBy": "sheet-sync"
   },
   "columns": [
@@ -494,7 +494,7 @@
           "tags": [
             "旅行"
           ],
-          "completedDate": "2026-06-07"
+          "completedDate": "2026-06-08"
         },
         {
           "id": "39",
@@ -503,21 +503,21 @@
           "tags": [
             "旅行"
           ],
-          "completedDate": "2026-06-07"
+          "completedDate": "2026-06-08"
         },
         {
           "id": "40",
           "title": "5/7の予定調整",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-06-07"
+          "completedDate": "2026-06-08"
         },
         {
           "id": "41",
           "title": "5/2のメモ書き",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-06-07"
+          "completedDate": "2026-06-08"
         },
         {
           "id": "42",
@@ -533,7 +533,7 @@
           "tags": [
             "旅行"
           ],
-          "completedDate": "2026-06-07"
+          "completedDate": "2026-06-08"
         },
         {
           "id": "44",
@@ -549,49 +549,49 @@
           "title": "四国旅行のまとめとインスタの投稿する",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-06-07"
+          "completedDate": "2026-06-08"
         },
         {
           "id": "54",
           "title": "2週間のまとめを赤羽さんに送る",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-06-07"
+          "completedDate": "2026-06-08"
         },
         {
           "id": "60",
           "title": "VS Code",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-06-07"
+          "completedDate": "2026-06-08"
         },
         {
           "id": "61",
           "title": "Python + uv",
           "owner": "🔧Codex",
           "tags": [],
-          "completedDate": "2026-06-07"
+          "completedDate": "2026-06-08"
         },
         {
           "id": "62",
           "title": "Node.js LTS",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-06-07"
+          "completedDate": "2026-06-08"
         },
         {
           "id": "63",
           "title": "NVIDIA Driver確認",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-06-07"
+          "completedDate": "2026-06-08"
         },
         {
           "id": "64",
           "title": "Ollama",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-06-07"
+          "completedDate": "2026-06-08"
         }
       ]
     }
