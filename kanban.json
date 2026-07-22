@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "松原さん × Reiチーム タスクボード",
-    "updated": "2026-07-22",
+    "updated": "2026-07-23",
     "updatedBy": "sheet-sync"
   },
   "columns": [
@@ -473,7 +473,7 @@
           "tags": [
             "旅行"
           ],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "39",
@@ -482,21 +482,21 @@
           "tags": [
             "旅行"
           ],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "40",
           "title": "5/7の予定調整",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "41",
           "title": "5/2のメモ書き",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "42",
@@ -512,7 +512,7 @@
           "tags": [
             "旅行"
           ],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "44",
@@ -535,84 +535,84 @@
           "title": "ワルシャワの地図、行きたい所をかく",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "50",
           "title": "チェコの行きたい場所、地図をかく",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "51",
           "title": "チェコとウィーンのチケット",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "52",
           "title": "1999のリードシート",
           "owner": "👤ユーザー+🔧Codex",
           "tags": [],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "53",
           "title": "四国旅行のまとめとインスタの投稿する",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "54",
           "title": "2週間のまとめを赤羽さんに送る",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "57",
           "title": "チェコ、オーストリア、ポーランドの歴史映画",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "60",
           "title": "VS Code",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "61",
           "title": "Python + uv",
           "owner": "🔧Codex",
           "tags": [],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "62",
           "title": "Node.js LTS",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "63",
           "title": "NVIDIA Driver確認",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         },
         {
           "id": "64",
           "title": "Ollama",
           "owner": "👤ユーザー",
           "tags": [],
-          "completedDate": "2026-07-22"
+          "completedDate": "2026-07-23"
         }
       ]
     }
