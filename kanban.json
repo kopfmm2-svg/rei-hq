@@ -17,181 +17,204 @@
       "color": "#f59e0b",
       "tasks": [
         {
-          "id": "8",
-          "title": "settings.local.json から bunshin-ai.com curl 削除",
-          "owner": "🔧Codex",
+          "id": "1001",
+          "title": "バンド：10/12・10/18の練習時刻を予約サイトで確認",
+          "owner": "👤ユーザー",
           "tags": [
-            "セキュリティ"
+            "音楽",
+            "本番準備"
           ],
-          "deadline": "2026/05/07"
+          "deadline": "2026/10/11"
         },
         {
-          "id": "9",
-          "title": "Google API token を ~/.config/google/ に移動",
-          "owner": "🔧Codex",
+          "id": "1002",
+          "title": "バンド：苦手パート3箇所を絞り鍵盤練習（本番まで週4〜5回）",
+          "owner": "👤ユーザー",
           "tags": [
-            "セキュリティ"
+            "音楽",
+            "本番準備"
           ],
-          "deadline": "2026/05/07"
+          "deadline": "2026/10/23"
         },
         {
-          "id": "11",
-          "title": "保険の請求",
+          "id": "1003",
+          "title": "バンド合同練習①（春見台の練習場／名称要確認）",
+          "owner": "👤ユーザー",
+          "tags": [
+            "音楽",
+            "リハーサル"
+          ],
+          "deadline": "2026/10/12"
+        },
+        {
+          "id": "1004",
+          "title": "バンド合同練習②（春見台の練習場／名称要確認）",
+          "owner": "👤ユーザー",
+          "tags": [
+            "音楽",
+            "リハーサル"
+          ],
+          "deadline": "2026/10/18"
+        },
+        {
+          "id": "1005",
+          "title": "バンド発表会・本番（観客を招く）",
+          "owner": "👤ユーザー",
+          "tags": [
+            "音楽",
+            "マイルストーン"
+          ],
+          "deadline": "2026/10/24"
+        },
+        {
+          "id": "1006",
+          "title": "独立収入：中小企業IT相談の課題・価値・予算・保守を1枚に整理",
+          "owner": "👤ユーザー",
+          "tags": [
+            "副業",
+            "顧客検証"
+          ],
+          "deadline": "2026/10月末（仮）"
+        },
+        {
+          "id": "1007",
+          "title": "独立収入：小規模企業向け有償お試し提案を1件検証",
+          "owner": "👤ユーザー",
+          "tags": [
+            "副業",
+            "収益化"
+          ],
+          "deadline": "2026/11（仮）"
+        },
+        {
+          "id": "1008",
+          "title": "資産ポジショニングを月次で見直す（不動産・株式・現金・暗号資産・FX）",
+          "owner": "👤ユーザー",
+          "tags": [
+            "資産",
+            "意思決定"
+          ],
+          "deadline": "毎月"
+        },
+        {
+          "id": "1009",
+          "title": "勝どき物件：保有・売却・賃貸の税引後損益と条件を比較",
+          "owner": "👤ユーザー",
+          "tags": [
+            "資産",
+            "不動産"
+          ],
+          "deadline": "2026/11（仮）"
+        },
+        {
+          "id": "1010",
+          "title": "保険の請求：5月からの未完了タスクか確認",
           "owner": "👤ユーザー",
           "tags": [
             "個人",
             "お金"
           ],
-          "deadline": "2026/05/07"
+          "deadline": "早めに確認"
         },
         {
-          "id": "16",
-          "title": "rei.mdに意思決定フロー追記・品質チェッカートリガー定義",
-          "owner": "🤖Rei",
-          "tags": [
-            "エージェント体制",
-            "設計"
-          ],
-          "deadline": "2026/05/07"
-        },
-        {
-          "id": "17",
-          "title": "OpenAI API key 取得・LLM強化（任意）",
+          "id": "1011",
+          "title": "テニス：ボディ速球リターンの短時間ドリル週2回",
           "owner": "👤ユーザー",
           "tags": [
-            "LINE外部脳",
-            "AI"
+            "テニス",
+            "技術向上"
           ],
-          "deadline": "2026-06-01以降"
+          "deadline": "毎週（本番後は増量）"
         },
         {
-          "id": "18",
-          "title": "Obsidian AIフォルダ / 01_自分資料/ 整備",
-          "owner": "🤖Rei",
-          "tags": [
-            "エージェント体制"
-          ],
-          "deadline": "2026-06-01以降"
-        },
-        {
-          "id": "19",
-          "title": "cc-booster継続利用判断",
+          "id": "1012",
+          "title": "テニス：月2回以上の実打機会と課題別振り返り",
           "owner": "👤ユーザー",
           "tags": [
-            "エージェント体制"
+            "テニス",
+            "技術向上"
           ],
-          "deadline": "2026-06-01以降"
+          "deadline": "毎月（目標案）"
         },
         {
-          "id": "20",
-          "title": "Note 月4本ペース維持",
+          "id": "1013",
+          "title": "FEELCYCLE：健康維持の運動を継続",
           "owner": "👤ユーザー",
           "tags": [
-            "コンテンツ"
+            "健康",
+            "習慣"
           ],
-          "deadline": "毎月"
-        },
-        {
-          "id": "21",
-          "title": "YouTube 月2本ペース維持",
-          "owner": "👤ユーザー",
-          "tags": [
-            "コンテンツ"
-          ],
-          "deadline": "毎月"
-        },
-        {
-          "id": "22",
-          "title": "01OAの会 次回セミナー確認・参加登録",
-          "owner": "👤ユーザー",
-          "tags": [
-            "不動産"
-          ],
-          "deadline": "2026-06-01以降"
-        },
-        {
-          "id": "45",
-          "title": "PrahaからWienの移動予約",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今週"
-        },
-        {
-          "id": "46",
-          "title": "Obsidianファイル整理",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今週"
-        },
-        {
-          "id": "47",
-          "title": "ノバルティス 書類",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "2026/7/2"
-        },
-        {
-          "id": "55",
-          "title": "Feel cycle に行く",
-          "owner": "👤ユーザー",
-          "tags": [],
           "deadline": "毎週"
         },
         {
-          "id": "56",
-          "title": "piano 練習",
+          "id": "1014",
+          "title": "Audi SQ2：豊洲または足立で6.2万km点検の要否相談",
           "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今週"
+          "tags": [
+            "生活",
+            "車"
+          ],
+          "deadline": "2026/10（目安）"
         },
         {
-          "id": "58",
-          "title": "本月３冊は読む",
+          "id": "1015",
+          "title": "読書：当面は週2回20分（本番後に増やす）",
           "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今週"
+          "tags": [
+            "自己投資",
+            "習慣"
+          ],
+          "deadline": "毎週（目標案）"
         },
         {
-          "id": "59",
-          "title": "７月に給与支払特別徴収の移動届出が来たらZoetisに送る",
+          "id": "1016",
+          "title": "旧AI実験のAPI token・設定の安全性だけ確認",
           "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "7月"
+          "tags": [
+            "安全管理",
+            "一回限り"
+          ],
+          "deadline": "2026/10（目安）"
         },
         {
-          "id": "65",
-          "title": "ComfyUI",
+          "id": "1017",
+          "title": "退職・転職時の税・書類の未完了事項がないか確認",
           "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今週"
+          "tags": [
+            "生活",
+            "事務"
+          ],
+          "deadline": "2026/10（目安）"
         },
         {
-          "id": "66",
-          "title": "Stability Matrix or Forge",
+          "id": "1018",
+          "title": "iPad miniの容量・不要な端末とバッグの整理",
           "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今週"
+          "tags": [
+            "生活",
+            "整理"
+          ],
+          "deadline": "本番後"
         },
         {
-          "id": "67",
-          "title": "PowerBIの勉強",
+          "id": "1019",
+          "title": "英語学習を再開し継続する",
           "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今週"
+          "tags": [
+            "自己投資",
+            "英語"
+          ],
+          "deadline": "本番後"
         },
         {
-          "id": "68",
-          "title": "SAPの勉強",
+          "id": "1020",
+          "title": "NoteやYouTubeでの発信は副業の顧客獲得に直結する時だけ実施",
           "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今週"
-        },
-        {
-          "id": "69",
-          "title": "Viennaの投稿",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "deadline": "今週"
+          "tags": [
+            "副業",
+            "発信"
+          ],
+          "deadline": "必要時"
         }
       ]
     },
@@ -212,123 +235,6 @@
       "label": "✅ 完了済み",
       "color": "#10b981",
       "tasks": [
-        {
-          "id": "1",
-          "title": "アカバさんのワンオンワン予定を返信",
-          "owner": "👤ユーザー",
-          "tags": [
-            "個人",
-            "連絡"
-          ],
-          "completedDate": "2026/05/01"
-        },
-        {
-          "id": "2",
-          "title": "アカバさんレッスン後（19:00〜）に2週間予定＋実績PDF/PPT送付",
-          "owner": "👤ユーザー",
-          "tags": [
-            "個人",
-            "連絡"
-          ],
-          "completedDate": "2026/05/01"
-        },
-        {
-          "id": "3",
-          "title": "机の上の紙の整理",
-          "owner": "👤ユーザー",
-          "tags": [
-            "個人",
-            "生活"
-          ],
-          "completedDate": "2026/05/01"
-        },
-        {
-          "id": "4",
-          "title": "LINE Channel secret を再生成（漏洩済み）",
-          "owner": "👤ユーザー",
-          "tags": [
-            "LINE",
-            "セキュリティ"
-          ],
-          "completedDate": "2026/05/01"
-        },
-        {
-          "id": "5",
-          "title": "LINE Access token を再生成",
-          "owner": "👤ユーザー",
-          "tags": [
-            "LINE",
-            "セキュリティ"
-          ],
-          "completedDate": "2026/05/01"
-        },
-        {
-          "id": "6",
-          "title": "wrangler deploy → webhook URL取得",
-          "owner": "🔧Codex",
-          "tags": [
-            "LINE外部脳",
-            "Cloudflare"
-          ],
-          "completedDate": "2026/05/01"
-        },
-        {
-          "id": "7",
-          "title": "Worker secrets設定（LINE/GitHub tokens）",
-          "owner": "🔧Codex",
-          "tags": [
-            "LINE外部脳",
-            "Cloudflare"
-          ],
-          "completedDate": "2026/05/01"
-        },
-        {
-          "id": "10",
-          "title": "新しいキーボードの置き場セッティング",
-          "owner": "👤ユーザー",
-          "tags": [
-            "個人",
-            "生活"
-          ],
-          "completedDate": "2026/05/07"
-        },
-        {
-          "id": "12",
-          "title": "LINE webhook URL に Worker URL を設定",
-          "owner": "👤ユーザー+🔧Codex",
-          "tags": [
-            "LINE外部脳"
-          ],
-          "completedDate": "2026/05/01"
-        },
-        {
-          "id": "13",
-          "title": "LINEアプリからOfficialアカウントに友達追加・テストメッセージ送信",
-          "owner": "👤ユーザー",
-          "tags": [
-            "LINE外部脳"
-          ],
-          "completedDate": "2026/05/01"
-        },
-        {
-          "id": "14",
-          "title": "Workerログから LINE user ID 取得 → ALLOWED_USER_IDS 設定・再deploy",
-          "owner": "🔧Codex",
-          "tags": [
-            "LINE外部脳"
-          ],
-          "completedDate": "2026/05/01"
-        },
-        {
-          "id": "15",
-          "title": "Mac sync script + launchd 設定",
-          "owner": "🔧Codex",
-          "tags": [
-            "LINE外部脳",
-            "Mac"
-          ],
-          "completedDate": "2026/05/01"
-        },
         {
           "id": "23",
           "title": "LINE外部脳 コード実装（Cloudflare Worker）",
@@ -524,41 +430,6 @@
           "completedDate": "2026/05/14"
         },
         {
-          "id": "48",
-          "title": "Zoetis 書類",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "completedDate": "2026/6/15"
-        },
-        {
-          "id": "49",
-          "title": "ワルシャワの地図、行きたい所をかく",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "completedDate": "2026-10-08"
-        },
-        {
-          "id": "50",
-          "title": "チェコの行きたい場所、地図をかく",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "completedDate": "2026-10-08"
-        },
-        {
-          "id": "51",
-          "title": "チェコとウィーンのチケット",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "completedDate": "2026-10-08"
-        },
-        {
-          "id": "52",
-          "title": "1999のリードシート",
-          "owner": "👤ユーザー+🔧Codex",
-          "tags": [],
-          "completedDate": "2026-10-08"
-        },
-        {
           "id": "53",
           "title": "四国旅行のまとめとインスタの投稿する",
           "owner": "👤ユーザー",
@@ -568,13 +439,6 @@
         {
           "id": "54",
           "title": "2週間のまとめを赤羽さんに送る",
-          "owner": "👤ユーザー",
-          "tags": [],
-          "completedDate": "2026-10-08"
-        },
-        {
-          "id": "57",
-          "title": "チェコ、オーストリア、ポーランドの歴史映画",
           "owner": "👤ユーザー",
           "tags": [],
           "completedDate": "2026-10-08"
